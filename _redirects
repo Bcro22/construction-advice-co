@@ -1,0 +1,8 @@
+/services /services.html 200
+/about /about.html 200
+/faq /faq.html 200
+/contact /contact.html 200
+/quick-review /quick-review.html 200
+/strategy-session /strategy-session.html 200
+
+/admin /admin/ 301

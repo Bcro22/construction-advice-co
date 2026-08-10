@@ -1,0 +1,102 @@
+THE CONSTRUCTION ADVICE CO. — ADMIN SETUP
+==========================================
+
+WHAT THIS ADDS
+--------------
+This version includes a real browser-based content editor at:
+
+    https://YOUR-SITE.com/admin/
+
+From the admin you can edit:
+- Homepage hero copy and buttons
+- Ask the Builder copy
+- Trust-bar text
+- Main service names, prices, descriptions, bullets and buttons
+- Strategy Session and secondary service pricing
+- Project-type labels
+- Experience copy and stats
+- Bottom CTA
+- Services page copy
+- About page copy
+- FAQ copy
+- Quick Review page copy
+- Strategy Session page copy
+- Contact email and footer text
+- Stripe checkout links and scheduling links
+- Show/hide the major homepage sections
+
+The visual layout, CSS, icons, and page structure remain code-controlled so normal content edits cannot accidentally break the design.
+
+IMPORTANT: WHY GITHUB IS REQUIRED
+---------------------------------
+The site is currently deployable by drag-and-drop, but a live CMS needs somewhere it can SAVE source-file changes. This admin uses Decap CMS with GitHub as that source of truth. Netlify then automatically redeploys the site after you click Publish.
+
+ONE-TIME SETUP
+--------------
+1. Create a GitHub account if you do not already have one.
+
+2. Create a repository named:
+       construction-advice-co
+   Private is fine.
+
+3. Upload the CONTENTS of this folder to the repository root.
+   index.html must be at the root of the repo.
+
+4. Open:
+       admin/config.yml
+   Replace:
+       Bcro22/construction-advice-co
+   with your real GitHub username/repository, for example:
+       Bcro22/construction-advice-co
+
+5. Connect the GitHub repository to your EXISTING Netlify project so it uses continuous deployment.
+   In Netlify, link the project to the GitHub repo and use the main branch.
+   The publish directory is the repository root and there is no build command.
+
+6. Create a GitHub OAuth App:
+   GitHub > Settings > Developer settings > OAuth Apps > New OAuth App
+
+   Homepage URL:
+       your Netlify URL or ConstructionAdviceCo.com
+
+   Authorization callback URL:
+       https://api.netlify.com/auth/done
+
+   Save the Client ID and generate a Client Secret.
+
+7. In Netlify go to:
+       Project configuration > Access & security > OAuth
+   Install the GitHub provider and paste the Client ID and Client Secret.
+
+8. Visit:
+       https://YOUR-SITE.com/admin/
+   Choose Login with GitHub.
+
+9. Open "Website" > "Site Content & Pricing", make an edit, then click Publish.
+   The CMS commits content/site.json to GitHub. Netlify sees the commit and automatically deploys the new version.
+
+WHAT YOU EDIT MOST OFTEN
+------------------------
+All normal business content lives in:
+       content/site.json
+
+The admin edits this file for you. You should not need to manually edit JSON.
+
+CHECKOUT / SCHEDULING LINKS
+---------------------------
+In the admin, open:
+Global Settings > Payments & Scheduling Links
+
+Paste your Stripe/Acuity/Calendly URLs there. Those links override the original placeholders automatically.
+
+WHAT REQUIRES CODE
+------------------
+The admin is intentionally safe. It does NOT let you freely drag sections, rewrite CSS, or alter HTML structure. Ask for a code update if you want to:
+- Change the overall layout
+- Reorder major sections
+- Add a completely new type of section
+- Change branding/colors/fonts globally
+- Replace or redesign icons
+- Add a new payment workflow or custom app feature
+
+This separation lets you edit wording and pricing without risking the site's design.

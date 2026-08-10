@@ -1,0 +1,275 @@
+{
+  "global": {
+    "topbar": "Real person. No AI. Independent construction guidance from an experienced Florida contractor.",
+    "contactEmail": "help@constructionadviceco.com",
+    "scheduleLabel": "Schedule a Call",
+    "scheduleUrl": "strategy-session.html",
+    "footerDescription": "Independent construction guidance for homeowners, investors, and property owners who want an experienced professional on their side.",
+    "disclaimer": "© 2026 The Construction Advice Company, LLC. Construction consulting and general guidance only. Not engineering, architecture, legal advice, or a code inspection.",
+    "integrations": {
+      "stripeQuickReview": "",
+      "stripeConstructionSecondOpinion": "",
+      "stripeBidScopeReview": "",
+      "scheduleStrategySession": "",
+      "scheduleSiteWalk": "",
+      "ownerAdvisorApply": "contact.html#owners-advisor"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Independent Construction Advice",
+      "title1": "Construction Help.",
+      "title2": "Without the Confusion.",
+      "body": "Get straightforward construction guidance before you sign, pay, approve, or make your next move. I help homeowners and property owners understand bids, plans, contractor issues, change orders, and the decisions that can cost real money.",
+      "primaryLabel": "Get a Second Opinion",
+      "primaryUrl": "services.html#second-opinion",
+      "secondaryLabel": "Ask a Free Question",
+      "secondaryUrl": "#ask",
+      "proofBold": "Real person. No AI.",
+      "proofText": "Practical answers based on real-world construction experience."
+    },
+    "ask": {
+      "title": "Ask the Builder",
+      "intro": "Have one quick construction question? Send it here and get a straightforward response from a real person.",
+      "button": "Submit My Question",
+      "note": "Free questions are for quick guidance. Detailed document review and project-specific analysis are available through paid services."
+    },
+    "trust": [
+      {
+        "title": "On Your Side",
+        "text": "I work for you—not the contractor."
+      },
+      {
+        "title": "20+ Years Experience",
+        "text": "From small renovations to complex builds."
+      },
+      {
+        "title": "All Project Types",
+        "text": "Residential, commercial, hospitality, and more."
+      },
+      {
+        "title": "Straight Answers",
+        "text": "No sales pitch. No AI. Just practical advice."
+      }
+    ],
+    "help": {
+      "eyebrow": "How I Can Help",
+      "title": "Start With the Smallest Service That Solves the Problem.",
+      "intro": "Low-friction entry options for quick questions, deeper reviews when money is on the line, and ongoing support when the project justifies it."
+    },
+    "services": {
+      "quickReview": {
+        "title": "Quick Second Opinion",
+        "price": "$49.99",
+        "description": "Send one focused question with supporting documents or photos and receive a concise written Builder’s Response.",
+        "bullets": [
+          "Up to 3 files or 10 pages",
+          "Concerns and missing information",
+          "Recommended next step"
+        ],
+        "buttonLabel": "Start Review",
+        "buttonUrl": "quick-review.html",
+        "badge": ""
+      },
+      "secondOpinion": {
+        "title": "Construction Second Opinion",
+        "price": "$295",
+        "description": "Document review, a live consultation, and a written path forward before you sign, approve, pay, or proceed.",
+        "bullets": [
+          "Up to 5 documents or 40 pages",
+          "30-minute consultation",
+          "1–2 page written summary"
+        ],
+        "buttonLabel": "Get a Second Opinion",
+        "buttonUrl": "services.html#second-opinion",
+        "badge": "Most Popular"
+      },
+      "bidReview": {
+        "title": "Bid & Scope Review",
+        "price": "$595",
+        "description": "Compare contractor proposals side by side so you understand scope, gaps, allowances, exclusions, and risk.",
+        "bullets": [
+          "Compare up to 3 proposals",
+          "Scope and pricing observations",
+          "45-minute review call"
+        ],
+        "buttonLabel": "Compare My Bids",
+        "buttonUrl": "services.html#bid-review",
+        "badge": ""
+      },
+      "ownersAdvisor": {
+        "title": "Owner’s Advisor",
+        "price": "$1,250+/mo",
+        "description": "Ongoing independent guidance for owners who want an experienced construction professional in their corner.",
+        "bullets": [
+          "Scheduled project reviews",
+          "Calls and document guidance",
+          "Priority support and monthly summary"
+        ],
+        "buttonLabel": "Apply for Support",
+        "buttonUrl": "contact.html#owners-advisor",
+        "badge": ""
+      },
+      "strategy": {
+        "title": "Project Strategy Session",
+        "price": "$149",
+        "description": "Up to 60 minutes to discuss your project, options, concerns, and the right next steps.",
+        "buttonLabel": "Schedule Now",
+        "buttonUrl": "strategy-session.html"
+      },
+      "projectRescue": {
+        "title": "Project Rescue Review",
+        "price": "$495",
+        "description": "Remote review and an action plan for stalled projects, delays, payment disputes, change-order problems, and contractor breakdowns.",
+        "buttonLabel": "View details →",
+        "buttonUrl": "services.html#project-rescue"
+      },
+      "siteWalk": {
+        "title": "Site Walk",
+        "price": "$595+",
+        "description": "On-site walkthrough, visible observations, practical guidance, and a brief follow-up summary.",
+        "buttonLabel": "Request a visit →",
+        "buttonUrl": "services.html#site-walk"
+      },
+      "siteReport": {
+        "title": "Site Walk + Report",
+        "price": "$895+",
+        "description": "Site evaluation plus photos, prioritized observations, and a formal written report with next steps.",
+        "buttonLabel": "Request a report →",
+        "buttonUrl": "services.html#site-report"
+      }
+    },
+    "projects": [
+      "New Home Builds",
+      "Renovations",
+      "Additions",
+      "Kitchen & Bath",
+      "Contractor Issues",
+      "Commercial",
+      "Investment Properties"
+    ],
+    "experience": {
+      "eyebrow": "Real-World Experience",
+      "title1": "Experience That",
+      "title2": "Builds Confidence.",
+      "paragraph1": "I’ve spent more than 20 years working across residential and commercial construction—from small renovations and single-family homes to large custom residences, restaurants, hotels, commercial spaces, and complex attraction work.",
+      "paragraph2": "Today, I use that experience to help owners understand what they’re being told, recognize risk, ask better questions, and make better decisions before expensive mistakes happen.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "Years in Construction"
+        },
+        {
+          "value": "Broad",
+          "label": "Residential + Commercial Experience"
+        },
+        {
+          "value": "1:1",
+          "label": "Direct Access to the Advisor"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Before You Spend Thousands, Get a Second Opinion.",
+      "text": "Start small. Get clarity. Move forward with more confidence.",
+      "buttonLabel": "Start a $49.99 Review",
+      "buttonUrl": "quick-review.html"
+    },
+    "visibility": {
+      "hero": true,
+      "trust": true,
+      "help": true,
+      "projects": true,
+      "experience": true,
+      "finalCta": true
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Services & Pricing",
+    "title": "Clear Help. Clear Deliverables.",
+    "intro": "Choose the smallest service that solves your problem. Start with a quick answer or move into deeper review, on-site support, or ongoing advisory work when the stakes are higher.",
+    "freeQuestion": {
+      "title": "Ask the Builder",
+      "price": "Free",
+      "description": "One quick question up to 250 characters. General guidance from a real person. No documents or detailed project analysis.",
+      "buttonLabel": "Ask Now",
+      "buttonUrl": "index.html#ask"
+    },
+    "notice": "Pricing shown is for standard residential and small commercial matters. Large document sets, urgent turnaround, extensive travel, or unusually complex projects may require a custom quote. Services are construction consulting and general guidance—not architecture, engineering, legal advice, or a code inspection."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Real Construction Experience. Independent Advice.",
+    "intro": "The Construction Advice Co. exists for property owners who want an experienced construction professional to help them understand what they’re being told before they make an expensive decision.",
+    "leftTitle": "Built From Real-World Experience",
+    "leftP1": "My background spans more than 20 years of residential and commercial construction—from small renovations and single-family homes to large custom residences, restaurants, hotels, commercial spaces, and complex attraction work.",
+    "leftP2": "I’ve worked across pre-construction, estimating, field operations, contractor coordination, project management, problem solving, and closeout. That range matters because construction problems rarely fit neatly into one box.",
+    "rightTitle": "What This Business Is—and Isn’t",
+    "rightBullets": [
+      "Independent construction guidance for the owner",
+      "A second set of experienced eyes on plans, bids, changes, and problems",
+      "Plain-English answers without a sales pitch",
+      "Not a replacement for your architect, engineer, attorney, inspector, or contractor",
+      "Not a construction bid or solicitation to perform your project"
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions Before You Ask the Questions.",
+    "intro": "Here’s how the service works, what you can send, and where the limits are.",
+    "items": [
+      {
+        "question": "What can I send you?",
+        "answer": "Plans, contractor proposals, estimates, scopes, change orders, invoices, inspection items, photographs, schedules, and relevant contractor communications. The service description tells you the file/page limits for each package."
+      },
+      {
+        "question": "Are you my contractor?",
+        "answer": "No. The Construction Advice Co. provides independent construction consulting. I am not bidding your work or replacing the contractor responsible for performing it."
+      },
+      {
+        "question": "Is this an inspection or engineering opinion?",
+        "answer": "No. Site observations and document reviews are advisory and based on the information available. They do not replace required inspections, engineering, architecture, code review, or legal advice."
+      },
+      {
+        "question": "How fast will I get a response?",
+        "answer": "Free questions and Quick Second Opinions are designed for fast turnaround, but exact delivery depends on workload and complexity. Urgent or same-day work may require a custom quote."
+      },
+      {
+        "question": "Can you help if my project is already in trouble?",
+        "answer": "Yes. The Project Rescue Review is designed for active projects dealing with delays, change orders, payment disputes, contractor communication problems, or uncertainty about what to do next."
+      },
+      {
+        "question": "Do you work outside Florida?",
+        "answer": "Remote consulting may be available outside Florida for general construction guidance and document review. Local code, licensing, legal, and inspection requirements should always be confirmed by the appropriate local professional."
+      }
+    ]
+  },
+  "quickReviewPage": {
+    "eyebrow": "Quick Second Opinion",
+    "title": "$49.99. One Focused Issue. A Clear Next Step.",
+    "intro": "Send a proposal, estimate, change order, photo, inspection item, or other construction document and receive a concise written Builder’s Response.",
+    "paymentTitle": "Step 1 — Pay $49.99",
+    "paymentText": "Connect your Stripe Payment Link to this button when ready. Until then, it routes to the intake form below.",
+    "intakeEyebrow": "Step 2 — Upload Your Review",
+    "intakeTitle": "Quick Second Opinion Intake",
+    "intakeIntro": "Keep the issue focused. This service is designed for a 10–20 minute professional review, not a full project audit."
+  },
+  "strategyPage": {
+    "eyebrow": "Project Strategy Session",
+    "title": "Talk It Through for $149.",
+    "intro": "Up to 60 minutes one-on-one to work through your construction situation, questions, choices, and the right next steps.",
+    "includedTitle": "What’s Included",
+    "included": [
+      "Up to 60 minutes by phone or video",
+      "Short pre-call intake questionnaire",
+      "Up to 3 relevant supporting files",
+      "Multiple related questions about the same project",
+      "Brief follow-up email with key action steps"
+    ],
+    "notice": "Detailed plan sets, large document packages, formal reports, and extensive bid comparisons belong in the review services—not the strategy call.",
+    "bookingTitle": "Book Your Session",
+    "bookingText": "Connect your Acuity or Calendly page to the booking button when ready.",
+    "buttonLabel": "Schedule a $149 Session",
+    "buttonUrl": "contact.html?service=Project%20Strategy%20Session"
+  }
+}

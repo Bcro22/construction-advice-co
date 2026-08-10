@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="title desc">
+<title id="title">The Construction Advice Co.</title><desc id="desc">House roof and hammer logo.</desc>
+<g fill="none" stroke="#0b2433" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter">
+<path d="M82 111 205 30l123 81M96 102v66H55M314 102v66h78M274 72V38h30v54"/>
+</g>
+<path fill="#0b2433" d="M205 66c-22 0-40 12-47 31h31v60h31V97h33c-7-19-25-31-48-31Z"/>
+<text x="205" y="191" text-anchor="middle" fill="#0b2433" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" letter-spacing="11">THE</text>
+<text x="360" y="235" text-anchor="middle" fill="#0b2433" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="900" letter-spacing="2">CONSTRUCTION</text>
+<line x1="90" y1="264" x2="175" y2="264" stroke="#587a3d" stroke-width="6"/>
+<text x="360" y="274" text-anchor="middle" fill="#587a3d" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="800" letter-spacing="10">ADVICE CO.</text>
+<line x1="540" y1="264" x2="625" y2="264" stroke="#587a3d" stroke-width="6"/>
+</svg>
