@@ -1,5 +1,4 @@
-# GitHub backend configured for Bcro22/construction-advice-co.
-# Connect this repository to the Netlify project for continuous deployment.
+# Decap CMS configuration for The Construction Advice Co.
 backend:
   name: github
   repo: Bcro22/construction-advice-co
@@ -25,8 +24,8 @@ collections:
             fields:
               - { label: "Top Bar Message", name: "topbar", widget: "string" }
               - { label: "Contact Email", name: "contactEmail", widget: "string" }
-              - { label: "Schedule Button Label", name: "scheduleLabel", widget: "string" }
-              - { label: "Schedule Button URL", name: "scheduleUrl", widget: "string" }
+              - { label: "Header Button Label", name: "scheduleLabel", widget: "string" }
+              - { label: "Header Button URL", name: "scheduleUrl", widget: "string" }
               - { label: "Footer Description", name: "footerDescription", widget: "text" }
               - { label: "Footer Disclaimer", name: "disclaimer", widget: "text" }
               - label: "Payments & Scheduling Links"
@@ -34,12 +33,10 @@ collections:
                 widget: "object"
                 collapsed: false
                 fields:
-                  - { label: "$49.99 Quick Review Stripe URL", name: "stripeQuickReview", widget: "string", required: false }
-                  - { label: "$295 Second Opinion Stripe URL", name: "stripeConstructionSecondOpinion", widget: "string", required: false }
-                  - { label: "$595 Bid Review Stripe URL", name: "stripeBidScopeReview", widget: "string", required: false }
-                  - { label: "$149 Strategy Session Scheduling URL", name: "scheduleStrategySession", widget: "string", required: false }
-                  - { label: "Site Walk Scheduling URL", name: "scheduleSiteWalk", widget: "string", required: false }
-                  - { label: "Owner's Advisor Application URL", name: "ownerAdvisorApply", widget: "string", required: false }
+                  - { label: "$100 Builder Call Scheduling URL", name: "scheduleBuilderCall", widget: "string", required: false }
+                  - { label: "$300 Focused Review Stripe URL", name: "stripeFocusedReview", widget: "string", required: false }
+                  - { label: "$500 Comprehensive Review Stripe URL", name: "stripeComprehensiveReview", widget: "string", required: false }
+                  - { label: "Custom Request URL", name: "customRequest", widget: "string", required: false }
 
           - label: "Homepage"
             name: "home"
@@ -56,7 +53,6 @@ collections:
                   - { label: "Project Types", name: "projects", widget: "boolean", default: true }
                   - { label: "Experience", name: "experience", widget: "boolean", default: true }
                   - { label: "Bottom CTA", name: "finalCta", widget: "boolean", default: true }
-
               - label: "Hero"
                 name: "hero"
                 widget: "object"
@@ -71,7 +67,6 @@ collections:
                   - { label: "Secondary Button URL", name: "secondaryUrl", widget: "string" }
                   - { label: "Proof Bold Text", name: "proofBold", widget: "string" }
                   - { label: "Proof Supporting Text", name: "proofText", widget: "string" }
-
               - label: "Ask the Builder"
                 name: "ask"
                 widget: "object"
@@ -80,7 +75,6 @@ collections:
                   - { label: "Intro", name: "intro", widget: "text" }
                   - { label: "Submit Button", name: "button", widget: "string" }
                   - { label: "Small Note", name: "note", widget: "text" }
-
               - label: "Trust Bar"
                 name: "trust"
                 widget: "list"
@@ -89,7 +83,6 @@ collections:
                 fields:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Description", name: "text", widget: "string" }
-
               - label: "How I Can Help Header"
                 name: "help"
                 widget: "object"
@@ -97,14 +90,17 @@ collections:
                   - { label: "Small Heading", name: "eyebrow", widget: "string" }
                   - { label: "Main Heading", name: "title", widget: "string" }
                   - { label: "Intro", name: "intro", widget: "text" }
-
-              - label: "Services & Pricing"
+                  - { label: "Custom Help Heading", name: "customTitle", widget: "string" }
+                  - { label: "Custom Help Text", name: "customText", widget: "text" }
+                  - { label: "Custom Help Button", name: "customButtonLabel", widget: "string" }
+                  - { label: "Custom Help Button URL", name: "customButtonUrl", widget: "string" }
+              - label: "Three Paid Services"
                 name: "services"
                 widget: "object"
                 collapsed: false
                 fields:
-                  - label: "Quick Second Opinion"
-                    name: "quickReview"
+                  - label: "$100 Builder Call"
+                    name: "call"
                     widget: "object"
                     fields: &service_fields
                       - { label: "Name", name: "title", widget: "string" }
@@ -116,55 +112,24 @@ collections:
                         min: 3
                         max: 3
                         field: { label: "Bullet", name: "bullet", widget: "string" }
+                      - { label: "Plain-English Value Line", name: "note", widget: "string" }
                       - { label: "Button Label", name: "buttonLabel", widget: "string" }
                       - { label: "Button URL", name: "buttonUrl", widget: "string" }
                       - { label: "Badge", name: "badge", widget: "string", required: false }
-                  - label: "Construction Second Opinion"
-                    name: "secondOpinion"
+                  - label: "$300 Focused Construction Review"
+                    name: "focusedReview"
                     widget: "object"
                     fields: *service_fields
-                  - label: "Bid & Scope Review"
-                    name: "bidReview"
+                  - label: "$500 Comprehensive Project Review"
+                    name: "comprehensiveReview"
                     widget: "object"
                     fields: *service_fields
-                  - label: "Owner's Advisor"
-                    name: "ownersAdvisor"
-                    widget: "object"
-                    fields: *service_fields
-                  - label: "Project Strategy Session"
-                    name: "strategy"
-                    widget: "object"
-                    fields:
-                      - { label: "Name", name: "title", widget: "string" }
-                      - { label: "Price", name: "price", widget: "string" }
-                      - { label: "Description", name: "description", widget: "text" }
-                      - { label: "Button Label", name: "buttonLabel", widget: "string" }
-                      - { label: "Button URL", name: "buttonUrl", widget: "string" }
-                  - label: "Project Rescue Review"
-                    name: "projectRescue"
-                    widget: "object"
-                    fields: &secondary_fields
-                      - { label: "Name", name: "title", widget: "string" }
-                      - { label: "Price", name: "price", widget: "string" }
-                      - { label: "Description", name: "description", widget: "text" }
-                      - { label: "Button Label", name: "buttonLabel", widget: "string" }
-                      - { label: "Button URL", name: "buttonUrl", widget: "string" }
-                  - label: "Site Walk"
-                    name: "siteWalk"
-                    widget: "object"
-                    fields: *secondary_fields
-                  - label: "Site Walk + Report"
-                    name: "siteReport"
-                    widget: "object"
-                    fields: *secondary_fields
-
               - label: "Project Types"
                 name: "projects"
                 widget: "list"
                 min: 7
                 max: 7
                 field: { label: "Project Type", name: "project", widget: "string" }
-
               - label: "Experience Section"
                 name: "experience"
                 widget: "object"
@@ -182,7 +147,6 @@ collections:
                     fields:
                       - { label: "Big Value", name: "value", widget: "string" }
                       - { label: "Label", name: "label", widget: "string" }
-
               - label: "Bottom Call to Action"
                 name: "finalCta"
                 widget: "object"
@@ -244,8 +208,8 @@ collections:
                   - { label: "Question", name: "question", widget: "string" }
                   - { label: "Answer", name: "answer", widget: "text" }
 
-          - label: "$49.99 Quick Review Page"
-            name: "quickReviewPage"
+          - label: "$300 Focused Review Page"
+            name: "focusedReviewPage"
             widget: "object"
             fields:
               - { label: "Small Heading", name: "eyebrow", widget: "string" }
@@ -257,8 +221,8 @@ collections:
               - { label: "Intake Heading", name: "intakeTitle", widget: "string" }
               - { label: "Intake Intro", name: "intakeIntro", widget: "text" }
 
-          - label: "$149 Strategy Session Page"
-            name: "strategyPage"
+          - label: "$100 Builder Call Page"
+            name: "callPage"
             widget: "object"
             fields:
               - { label: "Small Heading", name: "eyebrow", widget: "string" }
@@ -276,3 +240,23 @@ collections:
               - { label: "Booking Text", name: "bookingText", widget: "text" }
               - { label: "Button Label", name: "buttonLabel", widget: "string" }
               - { label: "Button URL", name: "buttonUrl", widget: "string" }
+
+          - label: "$500 Comprehensive Review Page"
+            name: "comprehensivePage"
+            widget: "object"
+            fields:
+              - { label: "Small Heading", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - { label: "Included Heading", name: "includedTitle", widget: "string" }
+              - label: "Included Items"
+                name: "included"
+                widget: "list"
+                min: 5
+                max: 5
+                field: { label: "Item", name: "item", widget: "string" }
+              - { label: "Notice", name: "notice", widget: "text" }
+              - { label: "Payment Heading", name: "paymentTitle", widget: "string" }
+              - { label: "Payment Text", name: "paymentText", widget: "text" }
+              - { label: "Intake Heading", name: "intakeTitle", widget: "string" }
+              - { label: "Intake Intro", name: "intakeIntro", widget: "text" }

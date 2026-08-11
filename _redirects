@@ -2,8 +2,9 @@
 /about /about.html 200
 /faq /faq.html 200
 /contact /contact.html 200
-/quick-review /quick-review.html 200
-/strategy-session /strategy-session.html 200
-
+/builder-call /strategy-session.html 200
+/focused-review /quick-review.html 200
+/project-review /project-review.html 200
+/quick-review /focused-review 301
+/strategy-session /builder-call 301
 /admin /admin/ 301
-/thank-you /thank-you.html 200

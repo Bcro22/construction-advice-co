@@ -1,0 +1,26 @@
+THE CONSTRUCTION ADVICE CO. — EDITING GUIDE
+
+CURRENT PUBLIC SERVICE MENU
+$100 Builder Call
+$300 Focused Construction Review — Most Popular
+$500 Comprehensive Project Review
+Custom Construction Advisory — quoted separately
+
+EASIEST EDITING METHOD (once /admin/ authentication is connected)
+1. Go to https://constructionadviceco.com/admin/
+2. Open Website > Site Content & Pricing.
+3. Under Homepage > Three Paid Services you can edit each service name, price, description, three bullets, plain-English value line, button text, and button URL.
+4. Under Homepage > How I Can Help Header you can edit the section headline, intro, and the custom-help bar below the three cards.
+5. Click Publish. Netlify will redeploy the site from GitHub automatically.
+
+DIRECT GITHUB METHOD
+Main editable copy lives in content/site.json.
+Layout/styling lives in index.html and assets/styles.css.
+
+PAYMENTS / SCHEDULING
+In the admin editor, Global Settings > Payments & Scheduling Links contains:
+- $100 Builder Call Scheduling URL
+- $300 Focused Review Stripe URL
+- $500 Comprehensive Review Stripe URL
+
+The website keeps fallback links until those live URLs are entered.

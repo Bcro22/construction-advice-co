@@ -16,3 +16,19 @@
 @media(max-width:1050px){.nav{position:fixed;display:none;inset:92px 20px auto 20px;flex-direction:column;align-items:stretch;padding:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:12px}.nav.open{display:flex}.nav a{text-align:center}.menu{display:block}.hero-grid,.experience-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:repeat(4,1fr)}.project{border-bottom:1px solid var(--line)}.price-row{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.secondary-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.container{width:min(var(--max),calc(100% - 26px))}.header-inner{min-height:78px}.brand-logo{width:205px}.nav{inset:78px 13px auto 13px}.hero-grid{padding:52px 0 42px}.hero h1{font-size:3.2rem}.hero-actions{flex-direction:column}.hero-actions .btn{width:100%}.trust-grid{grid-template-columns:1fr 1fr}.trust-item:nth-child(2){border-right:0}.service-grid,.secondary-grid{grid-template-columns:1fr}.service-card.featured{transform:none}.strategy-bar{grid-template-columns:1fr}.strategy-bar .service-icon{display:none}.projects{grid-template-columns:1fr 1fr}.project:nth-child(even){border-right:0}.stats{grid-template-columns:1fr}.payment-box{grid-template-columns:1fr}.final-inner{flex-direction:column;align-items:flex-start}.final-inner .btn{width:100%}.footer-grid{grid-template-columns:1fr}.section{padding:62px 0}}
 @media(max-width:460px){.brand-logo{width:170px}.trust-grid,.projects{grid-template-columns:1fr}.trust-item,.project{border-right:0}.hero h1{font-size:2.75rem}.ask-card{padding:22px 18px}}
+
+/* Simplified three-service offer layout */
+.service-grid-three{grid-template-columns:repeat(3,1fr);max-width:1040px;margin-inline:auto}
+.custom-help{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:24px;padding:22px 24px;background:#fff;border:1px solid var(--line);border-radius:13px}
+.custom-help strong{display:block;font-size:1rem;margin-bottom:3px}.custom-help p{margin:0;color:var(--muted);font-size:.9rem}
+@media(max-width:1050px){.service-grid-three{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:900px){.service-grid-three{grid-template-columns:1fr}.custom-help{align-items:flex-start;flex-direction:column}.custom-help .btn{width:100%}}
+
+/* Service copy v3: three clear buying levels */
+.service-grid-three .service-card{min-height:560px;padding:28px}
+.service-grid-three .service-card h3{font-size:1.25rem;line-height:1.25}
+.service-grid-three .service-card p{font-size:.93rem;line-height:1.62}
+.service-grid-three .service-card ul{margin-top:8px}
+.service-note{margin:2px 0 20px;padding:13px 0 0;border-top:1px solid var(--line);color:var(--navy);font-size:.82rem;font-weight:780;line-height:1.45}
+.service-grid-three .service-card .btn{margin-top:auto}
+@media(max-width:900px){.service-grid-three .service-card{min-height:auto}}

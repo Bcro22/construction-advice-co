@@ -2,17 +2,15 @@
   "global": {
     "topbar": "Real person. No AI. Independent construction guidance from an experienced Florida contractor.",
     "contactEmail": "help@constructionadviceco.com",
-    "scheduleLabel": "Schedule a Call",
-    "scheduleUrl": "strategy-session.html",
+    "scheduleLabel": "Book a Call",
+    "scheduleUrl": "/builder-call",
     "footerDescription": "Independent construction guidance for homeowners, investors, and property owners who want an experienced professional on their side.",
     "disclaimer": "© 2026 The Construction Advice Company, LLC. Construction consulting and general guidance only. Not engineering, architecture, legal advice, or a code inspection.",
     "integrations": {
-      "stripeQuickReview": "",
-      "stripeConstructionSecondOpinion": "",
-      "stripeBidScopeReview": "",
-      "scheduleStrategySession": "",
-      "scheduleSiteWalk": "",
-      "ownerAdvisorApply": "contact.html#owners-advisor"
+      "scheduleBuilderCall": "",
+      "stripeFocusedReview": "",
+      "stripeComprehensiveReview": "",
+      "customRequest": "contact.html"
     }
   },
   "home": {
@@ -54,89 +52,55 @@
     ],
     "help": {
       "eyebrow": "How I Can Help",
-      "title": "Start With the Smallest Service That Solves the Problem.",
-      "intro": "Low-friction entry options for quick questions, deeper reviews when money is on the line, and ongoing support when the project justifies it."
+      "title": "Simple Options. Real Construction Experience. Clear Next Steps.",
+      "intro": "Choose the level of help you need: talk it through, have me review one defined construction issue, or have me dig into the bigger picture.",
+      "customTitle": "Need Something More Involved?",
+      "customText": "Site visits, ongoing owner’s-side support, bid comparisons, and larger project reviews are available by custom quote.",
+      "customButtonLabel": "Tell Me About Your Project",
+      "customButtonUrl": "contact.html"
     },
     "services": {
-      "quickReview": {
-        "title": "Quick Second Opinion",
-        "price": "$49.99",
-        "description": "Send one focused question with supporting documents or photos and receive a concise written Builder’s Response.",
+      "call": {
+        "title": "Builder Call",
+        "price": "$100",
+        "description": "Have a construction question or decision you want to talk through? Get 30 minutes one-on-one with an experienced contractor to discuss your situation and get straightforward direction.",
         "bullets": [
-          "Up to 3 files or 10 pages",
-          "Concerns and missing information",
-          "Recommended next step"
+          "30-minute private phone or video call",
+          "Ask questions and get clarity",
+          "Walk away knowing what I’d do next"
         ],
-        "buttonLabel": "Start Review",
-        "buttonUrl": "quick-review.html",
-        "badge": ""
+        "buttonLabel": "Book a Call",
+        "buttonUrl": "/builder-call",
+        "badge": "",
+        "note": "You’re buying my time and experience during the call."
       },
-      "secondOpinion": {
-        "title": "Construction Second Opinion",
-        "price": "$295",
-        "description": "Document review, a live consultation, and a written path forward before you sign, approve, pay, or proceed.",
+      "focusedReview": {
+        "title": "Focused Construction Review",
+        "price": "$300",
+        "description": "Something doesn’t look right or you just want a second opinion? Send me the relevant information and I’ll independently review one defined construction issue before you sign, pay, approve, or move forward.",
         "bullets": [
-          "Up to 5 documents or 40 pages",
-          "30-minute consultation",
-          "1–2 page written summary"
+          "Review relevant plans, proposals, photos, estimates, or change orders",
+          "Written findings, concerns, and recommended next steps",
+          "30-minute follow-up call to walk through everything"
         ],
         "buttonLabel": "Get a Second Opinion",
-        "buttonUrl": "services.html#second-opinion",
-        "badge": "Most Popular"
+        "buttonUrl": "/focused-review",
+        "badge": "Most Popular",
+        "note": "You’re buying my review of one defined construction issue."
       },
-      "bidReview": {
-        "title": "Bid & Scope Review",
-        "price": "$595",
-        "description": "Compare contractor proposals side by side so you understand scope, gaps, allowances, exclusions, and risk.",
+      "comprehensiveReview": {
+        "title": "Comprehensive Project Review",
+        "price": "$500",
+        "description": "When the problem is bigger than one document or one question, I’ll step back and look at the overall situation, identify the important issues, and help you build a clear path forward.",
         "bullets": [
-          "Compare up to 3 proposals",
-          "Scope and pricing observations",
-          "45-minute review call"
+          "Review multiple related documents and project concerns",
+          "Prioritized findings, risks, and recommendations",
+          "Written action plan + up to 60-minute review call"
         ],
-        "buttonLabel": "Compare My Bids",
-        "buttonUrl": "services.html#bid-review",
-        "badge": ""
-      },
-      "ownersAdvisor": {
-        "title": "Owner’s Advisor",
-        "price": "$1,250+/mo",
-        "description": "Ongoing independent guidance for owners who want an experienced construction professional in their corner.",
-        "bullets": [
-          "Scheduled project reviews",
-          "Calls and document guidance",
-          "Priority support and monthly summary"
-        ],
-        "buttonLabel": "Apply for Support",
-        "buttonUrl": "contact.html#owners-advisor",
-        "badge": ""
-      },
-      "strategy": {
-        "title": "Project Strategy Session",
-        "price": "$149",
-        "description": "Up to 60 minutes to discuss your project, options, concerns, and the right next steps.",
-        "buttonLabel": "Schedule Now",
-        "buttonUrl": "strategy-session.html"
-      },
-      "projectRescue": {
-        "title": "Project Rescue Review",
-        "price": "$495",
-        "description": "Remote review and an action plan for stalled projects, delays, payment disputes, change-order problems, and contractor breakdowns.",
-        "buttonLabel": "View details →",
-        "buttonUrl": "services.html#project-rescue"
-      },
-      "siteWalk": {
-        "title": "Site Walk",
-        "price": "$595+",
-        "description": "On-site walkthrough, visible observations, practical guidance, and a brief follow-up summary.",
-        "buttonLabel": "Request a visit →",
-        "buttonUrl": "services.html#site-walk"
-      },
-      "siteReport": {
-        "title": "Site Walk + Report",
-        "price": "$895+",
-        "description": "Site evaluation plus photos, prioritized observations, and a formal written report with next steps.",
-        "buttonLabel": "Request a report →",
-        "buttonUrl": "services.html#site-report"
+        "buttonLabel": "Review My Project",
+        "buttonUrl": "/project-review",
+        "badge": "",
+        "note": "You’re buying a deeper analysis of your overall situation."
       }
     },
     "projects": [
@@ -170,10 +134,10 @@
       ]
     },
     "finalCta": {
-      "title": "Before You Spend Thousands, Get a Second Opinion.",
-      "text": "Start small. Get clarity. Move forward with more confidence.",
-      "buttonLabel": "Start a $49.99 Review",
-      "buttonUrl": "quick-review.html"
+      "title": "Not Sure Where to Start?",
+      "text": "If you can explain the problem in a conversation, start with the $100 Builder Call. If you need me to review documents or the project itself, choose a review.",
+      "buttonLabel": "Book a $100 Builder Call",
+      "buttonUrl": "/builder-call"
     },
     "visibility": {
       "hero": true,
@@ -186,8 +150,8 @@
   },
   "servicesPage": {
     "eyebrow": "Services & Pricing",
-    "title": "Clear Help. Clear Deliverables.",
-    "intro": "Choose the smallest service that solves your problem. Start with a quick answer or move into deeper review, on-site support, or ongoing advisory work when the stakes are higher.",
+    "title": "Simple Options. Clear Deliverables.",
+    "intro": "Talk it through for $100. Have me review one defined construction issue for $300. Have me dig into the bigger picture for $500. If your situation needs more than that, I’ll build a custom scope.",
     "freeQuestion": {
       "title": "Ask the Builder",
       "price": "Free",
@@ -195,7 +159,7 @@
       "buttonLabel": "Ask Now",
       "buttonUrl": "index.html#ask"
     },
-    "notice": "Pricing shown is for standard residential and small commercial matters. Large document sets, urgent turnaround, extensive travel, or unusually complex projects may require a custom quote. Services are construction consulting and general guidance—not architecture, engineering, legal advice, or a code inspection."
+    "notice": "Need a site visit, ongoing owner-side support, a larger bid comparison, or something outside these three services? Send a custom request and I’ll tell you what it should cost. Services are construction consulting and general guidance—not architecture, engineering, legal advice, or a code inspection."
   },
   "about": {
     "eyebrow": "About",
@@ -220,7 +184,7 @@
     "items": [
       {
         "question": "What can I send you?",
-        "answer": "Plans, contractor proposals, estimates, scopes, change orders, invoices, inspection items, photographs, schedules, and relevant contractor communications. The service description tells you the file/page limits for each package."
+        "answer": "For the $300 Focused Construction Review, send the documents and photos relevant to one defined issue. For the $500 Comprehensive Project Review, send the most relevant plans, estimates, change orders, schedules, photos, invoices, and communications that help explain the overall situation."
       },
       {
         "question": "Are you my contractor?",
@@ -232,11 +196,11 @@
       },
       {
         "question": "How fast will I get a response?",
-        "answer": "Free questions and Quick Second Opinions are designed for fast turnaround, but exact delivery depends on workload and complexity. Urgent or same-day work may require a custom quote."
+        "answer": "Free questions are intended for quick general guidance. Paid reviews are scheduled based on workload and complexity. If you have a hard deadline, tell me before purchasing so I can confirm timing."
       },
       {
-        "question": "Can you help if my project is already in trouble?",
-        "answer": "Yes. The Project Rescue Review is designed for active projects dealing with delays, change orders, payment disputes, contractor communication problems, or uncertainty about what to do next."
+        "question": "What if my project is already in trouble?",
+        "answer": "Use the $500 Comprehensive Project Review when delays, payment issues, change orders, workmanship concerns, or contractor communication problems overlap and you need help seeing the whole situation. If it needs an on-site visit or ongoing support, send a custom request."
       },
       {
         "question": "Do you work outside Florida?",
@@ -244,32 +208,50 @@
       }
     ]
   },
-  "quickReviewPage": {
-    "eyebrow": "Quick Second Opinion",
-    "title": "$49.99. One Focused Issue. A Clear Next Step.",
-    "intro": "Send a proposal, estimate, change order, photo, inspection item, or other construction document and receive a concise written Builder’s Response.",
-    "paymentTitle": "Step 1 — Pay $49.99",
-    "paymentText": "Connect your Stripe Payment Link to this button when ready. Until then, it routes to the intake form below.",
-    "intakeEyebrow": "Step 2 — Upload Your Review",
-    "intakeTitle": "Quick Second Opinion Intake",
-    "intakeIntro": "Keep the issue focused. This service is designed for a 10–20 minute professional review, not a full project audit."
+  "focusedReviewPage": {
+    "eyebrow": "Focused Construction Review",
+    "title": "$300. One Defined Issue. A Clear Answer.",
+    "intro": "Something doesn’t look right or you just want a second opinion? Send me the relevant information and I’ll independently review one defined construction issue before you sign, pay, approve, or move forward.",
+    "paymentTitle": "Step 1 — Purchase the $300 Review",
+    "paymentText": "Connect your Stripe checkout link to this button. After payment, complete the intake below so I know exactly what issue you want reviewed.",
+    "intakeEyebrow": "Step 2 — Send the Issue",
+    "intakeTitle": "Focused Review Intake",
+    "intakeIntro": "Keep this to one defined issue or decision. If the situation involves multiple intertwined problems or requires a broader project analysis, use the $500 Comprehensive Project Review."
   },
-  "strategyPage": {
-    "eyebrow": "Project Strategy Session",
-    "title": "Talk It Through for $149.",
-    "intro": "Up to 60 minutes one-on-one to work through your construction situation, questions, choices, and the right next steps.",
+  "callPage": {
+    "eyebrow": "Builder Call",
+    "title": "Talk It Through for $100.",
+    "intro": "Have a construction question or decision you want to talk through? Get 30 minutes one-on-one with an experienced contractor to discuss your situation and get straightforward direction.",
+    "includedTitle": "What You’re Buying",
+    "included": [
+      "30 minutes by phone or video",
+      "Your questions about one project or situation",
+      "Real-time discussion and practical guidance",
+      "Straight answers without a sales pitch",
+      "Clear next steps before we hang up"
+    ],
+    "notice": "This is a conversation, not a document-review package. If you need me to study plans, bids, contracts, change orders, photos, or a larger document set before giving an opinion, choose the $300 or $500 review.",
+    "bookingTitle": "Book Your Call",
+    "bookingText": "Connect your scheduling page here so the customer can choose a time and pay during booking.",
+    "buttonLabel": "Schedule a $100 Call",
+    "buttonUrl": "contact.html?service=Builder%20Call%20-%20%24100"
+  },
+  "comprehensivePage": {
+    "eyebrow": "Comprehensive Project Review",
+    "title": "$500. Let Me Look at the Bigger Picture.",
+    "intro": "When the problem is bigger than one document or one question, I’ll step back and look at the overall situation, identify the important issues, and help you build a clear path forward.",
     "includedTitle": "What’s Included",
     "included": [
-      "Up to 60 minutes by phone or video",
-      "Short pre-call intake questionnaire",
-      "Up to 3 relevant supporting files",
-      "Multiple related questions about the same project",
-      "Brief follow-up email with key action steps"
+      "Broader review of the project situation",
+      "Multiple related documents, photos, and communications",
+      "Prioritized concerns and risk items",
+      "Written action plan with recommended next steps",
+      "Up to 60-minute review call"
     ],
-    "notice": "Detailed plan sets, large document packages, formal reports, and extensive bid comparisons belong in the review services—not the strategy call.",
-    "bookingTitle": "Book Your Session",
-    "bookingText": "Connect your Acuity or Calendly page to the booking button when ready.",
-    "buttonLabel": "Schedule a $149 Session",
-    "buttonUrl": "contact.html?service=Project%20Strategy%20Session"
+    "notice": "This service is designed for a deeper construction analysis, not unlimited project management. Very large document sets, site visits, ongoing owner representation, legal disputes, or unusually complex matters may require a custom scope.",
+    "paymentTitle": "Step 1 — Purchase the $500 Review",
+    "paymentText": "Connect your Stripe checkout link to the button. After payment, complete the intake below and send the most relevant information.",
+    "intakeTitle": "Comprehensive Review Intake",
+    "intakeIntro": "Tell me the bigger story: what happened, what you are worried about, what decisions are in front of you, and what outcome you need."
   }
 }

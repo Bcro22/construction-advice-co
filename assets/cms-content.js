@@ -116,11 +116,6 @@
 
       const badge = block.querySelector('[data-service-field="badge"]');
       if (badge) badge.style.display = service.badge ? '' : 'none';
-
-      if (block.hasAttribute('data-service-key') && key === 'strategy') {
-        const heading = block.querySelector('[data-strategy-heading]');
-        if (heading) heading.textContent = `Prefer to talk it through? ${service.title} — ${service.price}`;
-      }
     });
   }
 
