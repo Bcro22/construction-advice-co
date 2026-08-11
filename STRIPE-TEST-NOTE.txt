@@ -1,0 +1,17 @@
+STRIPE TEST MODE IS CONNECTED
+
+$300 Focused Construction Review:
+https://buy.stripe.com/test_3cI3cxbhI5xYdkTdZ4enS01
+
+$500 Comprehensive Project Review:
+https://buy.stripe.com/test_bJe5kFbhIaSi80z9IOenS00
+
+IMPORTANT:
+These URLs contain /test_ and are Stripe TEST MODE links.
+They are suitable for testing checkout flow only and will not collect real customer payments.
+
+Before public launch:
+1. Create/copy the equivalent LIVE Stripe Payment Links.
+2. Replace the two URLs in assets/site-config.js.
+3. Commit the change to GitHub.
+4. Netlify will redeploy automatically.

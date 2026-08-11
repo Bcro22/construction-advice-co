@@ -213,7 +213,7 @@
     "title": "$300. One Defined Issue. A Clear Answer.",
     "intro": "Something doesn’t look right or you just want a second opinion? Send me the relevant information and I’ll independently review one defined construction issue before you sign, pay, approve, or move forward.",
     "paymentTitle": "Step 1 — Purchase the $300 Review",
-    "paymentText": "Connect your Stripe checkout link to this button. After payment, complete the intake below so I know exactly what issue you want reviewed.",
+    "paymentText": "Complete the secure Stripe checkout, then return here to submit the information and documents for your focused review.",
     "intakeEyebrow": "Step 2 — Send the Issue",
     "intakeTitle": "Focused Review Intake",
     "intakeIntro": "Keep this to one defined issue or decision. If the situation involves multiple intertwined problems or requires a broader project analysis, use the $500 Comprehensive Project Review."
@@ -250,7 +250,7 @@
     ],
     "notice": "This service is designed for a deeper construction analysis, not unlimited project management. Very large document sets, site visits, ongoing owner representation, legal disputes, or unusually complex matters may require a custom scope.",
     "paymentTitle": "Step 1 — Purchase the $500 Review",
-    "paymentText": "Connect your Stripe checkout link to the button. After payment, complete the intake below and send the most relevant information.",
+    "paymentText": "Complete the secure Stripe checkout, then return here to tell me the full situation and send the most relevant supporting information.",
     "intakeTitle": "Comprehensive Review Intake",
     "intakeIntro": "Tell me the bigger story: what happened, what you are worried about, what decisions are in front of you, and what outcome you need."
   }
