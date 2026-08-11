@@ -1,0 +1,15 @@
+CURRENT WEBSITE INTEGRATIONS
+
+$100 Builder Call — Acuity:
+https://app.acuityscheduling.com/schedule.php?owner=40115616
+
+$300 Focused Construction Review — Stripe TEST MODE:
+https://buy.stripe.com/test_3cI3cxbhI5xYdkTdZ4enS01
+
+$500 Comprehensive Project Review — Stripe TEST MODE:
+https://buy.stripe.com/test_bJe5kFbhIaSi80z9IOenS00
+
+IMPORTANT:
+The Acuity link is connected to every $100 Builder Call button.
+
+The $300 and $500 Stripe links are still TEST MODE links. Replace them with live Stripe Payment Links before taking real payments.

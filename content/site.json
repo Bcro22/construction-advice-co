@@ -3,13 +3,13 @@
     "topbar": "Real person. No AI. Independent construction guidance from an experienced Florida contractor.",
     "contactEmail": "help@constructionadviceco.com",
     "scheduleLabel": "Book a Call",
-    "scheduleUrl": "/builder-call",
+    "scheduleUrl": "https://app.acuityscheduling.com/schedule.php?owner=40115616",
     "footerDescription": "Independent construction guidance for homeowners, investors, and property owners who want an experienced professional on their side.",
     "disclaimer": "© 2026 The Construction Advice Company, LLC. Construction consulting and general guidance only. Not engineering, architecture, legal advice, or a code inspection.",
     "integrations": {
-      "scheduleBuilderCall": "",
-      "stripeFocusedReview": "",
-      "stripeComprehensiveReview": "",
+      "scheduleBuilderCall": "https://app.acuityscheduling.com/schedule.php?owner=40115616",
+      "stripeFocusedReview": "https://buy.stripe.com/test_3cI3cxbhI5xYdkTdZ4enS01",
+      "stripeComprehensiveReview": "https://buy.stripe.com/test_bJe5kFbhIaSi80z9IOenS00",
       "customRequest": "contact.html"
     }
   },
@@ -70,7 +70,7 @@
           "Walk away knowing what I’d do next"
         ],
         "buttonLabel": "Book a Call",
-        "buttonUrl": "/builder-call",
+        "buttonUrl": "https://app.acuityscheduling.com/schedule.php?owner=40115616",
         "badge": "",
         "note": "You’re buying my time and experience during the call."
       },
@@ -84,7 +84,7 @@
           "30-minute follow-up call to walk through everything"
         ],
         "buttonLabel": "Get a Second Opinion",
-        "buttonUrl": "/focused-review",
+        "buttonUrl": "https://buy.stripe.com/test_3cI3cxbhI5xYdkTdZ4enS01",
         "badge": "Most Popular",
         "note": "You’re buying my review of one defined construction issue."
       },
@@ -98,7 +98,7 @@
           "Written action plan + up to 60-minute review call"
         ],
         "buttonLabel": "Review My Project",
-        "buttonUrl": "/project-review",
+        "buttonUrl": "https://buy.stripe.com/test_bJe5kFbhIaSi80z9IOenS00",
         "badge": "",
         "note": "You’re buying a deeper analysis of your overall situation."
       }
@@ -137,7 +137,7 @@
       "title": "Not Sure Where to Start?",
       "text": "If you can explain the problem in a conversation, start with the $100 Builder Call. If you need me to review documents or the project itself, choose a review.",
       "buttonLabel": "Book a $100 Builder Call",
-      "buttonUrl": "/builder-call"
+      "buttonUrl": "https://app.acuityscheduling.com/schedule.php?owner=40115616"
     },
     "visibility": {
       "hero": true,
@@ -232,9 +232,9 @@
     ],
     "notice": "This is a conversation, not a document-review package. If you need me to study plans, bids, contracts, change orders, photos, or a larger document set before giving an opinion, choose the $300 or $500 review.",
     "bookingTitle": "Book Your Call",
-    "bookingText": "Connect your scheduling page here so the customer can choose a time and pay during booking.",
+    "bookingText": "Choose an available time, complete the short intake, and pay the $100 booking fee through the scheduling page. Your appointment is confirmed once booking is complete.",
     "buttonLabel": "Schedule a $100 Call",
-    "buttonUrl": "contact.html?service=Builder%20Call%20-%20%24100"
+    "buttonUrl": "https://app.acuityscheduling.com/schedule.php?owner=40115616"
   },
   "comprehensivePage": {
     "eyebrow": "Comprehensive Project Review",
